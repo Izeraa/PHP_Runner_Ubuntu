@@ -1,0 +1,284 @@
+
+              # Ubuntu Docker - PHP_Runner_Ubuntu
+                           # Talk
+a project for the study of php, mysql
+                  # Acc And Password
+ALL_Cont : spongebob 
+ALL_Password : passwd : Sandy_Cheeks2@3A34!
+
+                              # 🦁 WWW  
+-https://ip/    Ex: https://172.17.0.3/
+                                  
+                        #🦁 File Manager: Samba : 
+-Acc,Groub,Password 🐘 spongebob  WORKGROUP  Sandy_Cheeks2@3A34!
+- < Windowns > : \\ip   Ex- \\192.168.0.176/    
+- < Linux 🐧 > :  smb://ip/        Ex- smb://172.17.0.3/  
+
+                           # 🦁 PhpMyAdmin  
+- https://ip/phpmyadmin              Ex: 172.17.0.3/phpmyadmin
+- User: spongebob phpmyadmin 1fcf51a30859 mysql root  
+- Password: Sandy_Cheeks2@3A34!
+- 🐭👀🦁 🐼
+                           # 🐭 Bugs 🐭
+- W 👀: sudo service apache2 status
+- W 🐭: sudo service apache2 restart
+- W 🐭: sudo service mysql restart
+- W 🐭: sudo service smbd restart
+- W 🐭: sudo selinux-activate
+- W 🐭: sudo service apache2 restart
+-
+                   # 🦁Installation In Porteiner 
+- W 🐼: PHP-Runner-Ubuntu PHP_Runner_Ubuntu  PHP Runner Ubuntu   PHP_Runner_SPONGEBOB PhpRunnerSpongebob 
+- W 🐼: Image: 
+-           2° - ubuntu:latest debian:latest  alpine:latest  ubuntu:jammy  
+-           1° - ubuntu  or 
+- W 🐼: aways pull image: disable
+- W 🐼: Network ports configuration: enable : 8080 8080
+- W 🐼: Access control : disable : all
+- W 🐼: Command & logging : Console: Interactive: -i     // & TTY (-i -t) 
+- W 🐼: Restart policy : 
+-                        #Unless_stoped  
+-                        #Aways
+- W 🐼:Runtime :  
+              - privilege mod:enable  
+              - Init:disable  
+              - memory : 1500 
+W ! : Capabilities: // audit and controlert && sys tyt
+ 
+aways interative 
+--------------------- 🐼🐼🐼 Ferramentas 🐼🐼🐼 ---------------------
+
+🐭👀🦁 🐼🐘🐓
+lsb_release -a 
+lsb_release -a
+ps -p 1 -o comm=  
+|| docker-init || qual comando para inciar o php com sistemd ||qual comando para inciar o apache2 com docker-init
+nano /.dockerenv
+apt install ranger
+df -h
+sudo apt-get update
+sudo apt-get install findutils
+find / -iname httpd.conf
+apt install htop
+
+httpd.conf
+
+--------------------- 🐼🐼🐼 one 🐼🐼🐼 --------------------
+W 🐼: apt-get update
+W 🐼: apt-get upgrade
+W 🐼: apt update
+W 🐼: apt list --upgradable
+W 🐼: apt upgrade
+W 🐼: apt install sudo
+-------------------------------------------------------------
+
+--------------------- 🐼🐼🐼 SYSTEMD 🐼🐼🐼 ---------------------
+W 🐼: ps -p 1 -o comm=  
+W 🐓: apt remove docker-init
+W 🐓: apt-get remove docker-init
+W 🐓: apt remove --purge --force-yes docker-init
+W 🐓: apt-get remove --purge --force-yes docker-init
+W 🐓: apt-get update
+W 🐓: apt-get autoremove
+W 🐓: sudo apt install grub
+W 🐓: sudo apt-get purge --auto-remove docker-init
+W 🐼: sudo apt-get install systemd
+W 🐼: sudo apt install systemd-sysv
+W 🐼: sudo apt-get update
+W 🐼: sudo apt-get install grub-pc
+W 🐼: sudo update-grub
+W 🐼: sudo grub-install /dev/sda
+W 🐼: sudo reboot
+
+W 🐼: sudo systemctl disable docker          $ systemctl list-unit-files | grep -i 'state\|docker'
+W 🐼: systemctl list-unit-files | grep -i docker
+W 🐼: sudo systemctl stop docker
+
+--------------------- 🐼🐼🐼 Tree 🐼🐼🐼 --------------------         
+W 🐼: sudo apt install nano
+W 🐼: passwd : Sandy_Cheeks2@3A34!
+W 🐼: apt update
+W 🐼: apt list --upgradable
+W 🐼: apt upgrade
+
+# Mudar o Nome : spongebob
+W : apt install systemctl
+W 🐓: sudo hostname spongebob
+W 🐓: su hostname spongebob
+W 🐓: nano /etc/hostname    spongebob      ★ ★ ★
+W 🐓: vim /etc/hostname
+ 
+# Mudar a senha : passwd : Sandy_Cheeks2@3A34!
+
+W 🐼: adduser spongebob : Sandy_Cheeks2@3A34!
+W 🐼: adduser spongebob sudo
+W 🐼: sudo -v
+
+sudo apt install snapd
+apt update
+apt upgrade
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- 
+sudo sed -i 's/main/main contrib non-free/' /etc/apt/sources.list
+
+
+
+sudo snap install nextcloud
+
+----------------------------------------------
+
+
+//nao presisa de docker pull 
+8080 8080
+aways interative privilege mod
+sys tyt
+Access control : all
+
+sed -i 's/main/main contrib non-free/' /etc/apt/sources.list
+apt update
+apt upgrade
+apt-get install sudo
+sudo apt install nano
+
+
+# Mudar o Nome : spongebob
+su -l
+sudo hostname spongebob
+nano /etc/hostname          ★ ★ ★
+vim /etc/hostname
+ 
+# Mudar a senha : passwd : Sandy_Cheeks2@3A34!
+
+apt-get install sudo
+adduser spongebob
+adduser spongebob sudo
+sudo -v
+
+sudo apt install snapd
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- 
+sudo sed -i 's/main/main contrib non-free/' /etc/apt/sources.list
+
+
+
+sudo snap install nextcloud
+
+-------------------Ferramentas -------------------
+su
+su -l   
+whoami 
+grep local_admin /etc/passwd
+su root
+------------------------------------------------------------
+-------------------Nani None-------------------
+sudo apt install snapd
+apt update
+apt upgrade
+// apt-get install sudo
+reboot , shutdown -r now e 
+------------------------------------------------------------
+
+------------ instalar sudo -------------
+& Siga estas etapas:
+
+    Efetue logon no nó do Linux e acesse a raiz usando o comando su.
+    Se o sudo não estiver instalado, instale o pacote sudo usando o seguinte comando:
+
+    apt-get install sudo
+    Adicione um usuário existente com a ID “user” ao grupo “sudo”:
+
+    Exemplo:
+
+    adduser user sudo
+    ou crie um usuário com o sudo:
+
+    adduser user
+
+    adduser user sudo
+    
+    Faça logon no shell do usuário e digite o seguinte 
+    comando para verificar se o usuário tem autorização:
+
+    ------------------------------------------------------
+
+
+
+
+-----------------------
+RUN apt-get update && apt-get install -y locales && rm -rf /var/lib/apt/lists/* \
+	&& localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
+ENV LANG en_US.utf8
+
+RUN 
+apt-get update  
+apt-get install -y locales  
+rm -rf /var/lib/apt/lists/* \
+localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
+ENV LANG en_US.utf8
+
+
+-------------------------
+
+Se entendi sua pergunta corretamente, parece que você está procurando informações sobre como usar soquetes em contêineres Docker em um sistema Ubuntu. Aqui estão algumas etapas gerais que você pode seguir:
+
+Instale o Docker no Ubuntu:
+Certifique-se de ter o Docker instalado em seu sistema Ubuntu. Você pode seguir as instruções oficiais no site do Docker para instalá-lo: Instale o Docker Engine no Ubuntu.
+
+Crie uma rede Docker:
+Você pode criar uma rede Docker para conectar contêineres e permitir a comunicação entre eles. Você pode fazer isso usando o seguinte comando:
+
+
+### W: docker network create quediafoiisso
+dab2aad13d8369d7cbdd30e83ab974c92287107bca6cd27d0667aaf19b5a9793
+
+### W: docker network create network_name
+
+
+Execute um contêiner com o soquete:
+Você pode executar um contêiner e montar o soquete Docker UNIX nele. 
+Isso é feito passando o soquete como um volume para o contêiner. 
+Por exemplo:
+### Not Host T : docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock PHP_Runner_Ubuntu
+### Host : docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --network quediafoiisso PHP_Runner_Ubuntu
+### Host: docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --network quediafoiisso ubuntu:latest
+### Host : docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --network nombre_de_la_red ubuntu:latest
+000 apaga
+### : docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --network quediafoiisso ubuntu:latest
+### : docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --network nome_da_rede ubuntu:mais recente
+Este comando executará um contêiner da imagem do Ubuntu e dará acesso 
+ao soquete Docker.
+
+Instale o Docker no contêiner:
+Certifique-se de que o contêiner tenha o Docker instalado. Dentro do contêiner, você pode executar comandos de instalação do Docker. Você pode fazer isso executando os seguintes comandos dentro do contêiner:
+
+Bash
+Copiar código
+atualização adequada
+apto instalar docker.io
+Teste a conexão:
+Dentro do contêiner, você pode testar se a conexão com o daemon Docker está funcionando corretamente. Você pode executar um comando simples como:
+
+Bash
+Copiar código
+informações da janela de encaixe
+Isso deve retornar informações sobre o daemon do Docker e confirmar se o contêiner pode se comunicar com o daemon do Docker no host.
+
+Lembre-se de que conceder acesso ao soquete Docker a um contêiner 
+pode ter implicações de segurança, 
+pois o contêiner pode ter acesso irrestrito 
+ao daemon Docker no host. Certifique-se de compreender 
+e mitigar quaisquer riscos associados a esta configuração 
+em seu ambiente específico.
+
+----------------------------------------------------------------------
+      Sandy_Cheeks2@3A34!
+\\192.168.0.176/rede/
+smb://192.168.0.176/rede/
+https://172.17.0.2/
+smb://172.17.0.2/
+
+systemctl enable smb
+chkconfig smb on 
+
+
+
