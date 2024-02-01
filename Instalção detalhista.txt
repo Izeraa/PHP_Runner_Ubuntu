@@ -1,21 +1,30 @@
- 
+--------------------- 🐼🐼🐼 Talk 🐼🐼🐼 ---------------------
+🐭👀🦁 🐼🐘🐓 👽
+🐭: Bug   👀: See  
+🐼: Write/Use  🐓: No White/Used   
+👽: Maybe White/Used : depends on use
+                # 👽
+ubuntu docker doesn't run systemd 🐓
+ubuntu desktop uses systemd 🐼
+W 🐭 = 🐓||👽: my attempts to make systemd work but it doesn't work 
+----------------------------------------------------------- 
 
 --------------------- 🐼🐼🐼 APACHE  🐼🐼🐼 ---------------------
             
 W 🐼: sudo apt-get install apache2
 W 🐭: sudo apt-get remove apache2
-W 🐼: sudo systemctl enable apache2
-W 🐼: sudo systemctl enable apache2.service
-W 🐼: sudo systemctl start apache2
+W 👽: sudo systemctl enable apache2
+W 👽: sudo systemctl enable apache2.service
+W 👽: sudo systemctl start apache2
 W 👀: sudo service apache2 status
 W 🐭: sudo service apache2 restart
 
-W 🐭: sudo cp /etc/apache2/apache2.conf /etc/apache2/apache2.conf.backup
-W 🐭: sudo nano /etc/apache2/apache2.conf
+W 👀: sudo cp /etc/apache2/apache2.conf /etc/apache2/apache2.conf.backup
+W 👀: sudo nano /etc/apache2/apache2.conf
 
-W 🐭: sudo nano /etc/systemd/system/apache2
-W 🐭: sudo nano /etc/systemd/system/apache2.service
----- < 🐧Nano > -----
+W 🐭 = 🐓||👽:force systemd: sudo nano /etc/systemd/system/apache2
+W 🐭 = 🐓||👽:force systemd: sudo nano /etc/systemd/system/apache2.service
+---- <🐧Nano > -----
 [Unit]
 Description=The Apache HTTP Server
 After=network.target
@@ -31,13 +40,15 @@ PrivateTmp=true
 [Install]
 WantedBy=multi-user.target
 ---- < 🐧/Nano > -----
-W 🐭: sudo systemctl enable apache2.service
 
 --------------------------------------------------------------  
+
+
+
 --------------------- 🐼🐼🐼 PHP 🐼🐼🐼 ---------------------
             
 W 🐼: sudo apt-get install php
-W 🐓: sudo systemctl enable php-fpm
+W 👽: sudo systemctl enable php-fpm
 W 🐼: sudo apt-get install php-mysql
 W 👀: php -v
 
@@ -46,13 +57,13 @@ W 👀: php -v
 --------------------- 🐼🐼🐼 MYSQL 🐼🐼🐼 ---------------------
 
 W 🐼: sudo apt-get install mysql-server
-W 🐼: sudo systemctl enable mysql
-W 🐼: sudo systemctl start mysql
-W 🐼: sudo systemctl enable mysql.service
+W 👽: sudo systemctl enable mysql
+W 👽: sudo systemctl start mysql
+W 👽: sudo systemctl enable mysql.service
 W 🐼: sudo service mysql restart
 W 👀: sudo service mysql status  
-W 🐭: nano /etc/mysql/my.cnf
----- < 🐧 W 🐭: nano /etc/mysql/my.cnf V1 > -----
+W 🐭= 🐼 : nano /etc/mysql/my.cnf
+---- < 🐧 nano > -----
 !includedir /etc/mysql/conf.d/
 !includedir /etc/mysql/mysql.conf.d/
 
@@ -62,16 +73,23 @@ socket = /var/run/mysqld/mysqld.sock
 
 ---- < 🐧/Nano > -----
 
----- < 🐧nano /etc/mysql/my.cnf v2 > -----
-00000000000000000000000
+---- < 🐓🐓🐓🐓🐓 > -----
+user            = spongebob
+password        = Sandy_Cheeks2@3A34!
+sudo mkdir /var/lib/mysql/data
+nano /etc/mysql/conf.d/mysql.cnf 
+amei
+nano /etc/mysql/mysql.conf.d/mysqld.cnf
+nano /etc/mysql/my.cnf
 port=3306
 [mysqld]
-
+user=
+password=
 socket = /var/run/mysqld/mysqld.sock
----- < 🐧/Nano > -----
+---- < 🐓🐓🐓🐓🐓/ > -----
   
-W 🐭: sudo nano /etc/systemd/system/mysql
-W 🐭: sudo nano /etc/systemd/system/mysql.service
+W 🐭=🐓||👽 : force systemd: sudo nano /etc/systemd/system/mysql
+W 🐭:🐓||👽 : force systemd:  sudo nano /etc/systemd/system/mysql.service
 ---- < 🐧Nano > -----
 [Unit]
 Description=MySQL Server
@@ -96,7 +114,7 @@ W 🐼:  GRANT ALL PRIVILEGES ON *.* TO 'spongebob'@'localhost';
 W 🐼:  FLUSH PRIVILEGES;
 W 🐼:  EXIT;
 W 🐼:  sudo service mysql restart
-W 🐓:  mysql -p -u spongebob
+W 🐼:  mysql -p -u spongebob
 
 --------------------------------------------------------------
 
@@ -107,32 +125,15 @@ W 🐼:   // espaço para marca
 W 🐼:  Senha php my admin : Sandy_Cheeks2@3A34!
 W 🐼:  Local_Host/phpmyadmin 
 W 🐼:  sudo apt install phpmyadmin        // espaço para marca
-W 🐼:  find / -iname aaz
-W 🐼:  find / -iname my.ini 
-W 🐼:  nano /etc/mysql/my.cnf
+W 🐭= 🐼: nano /etc/phpmyadmin/config-db.php
 ---- < 🐧Nano > -----
-ref: dedfaut utf8
-ref: [mysql]
-port-3306
-skip-grand-tables
-port-3306
----- < 🐧/Nano > -----
-find / -iname config.inc.php
-nano /etc/phpmyadmin/config.inc.php
-
---------------------------------------------------------------
-
---------------------------------PHP MY ADMIN -------------------------------------------------------------
-
-No arquivo 
-W 🐼: nano /etc/phpmyadmin/config-db.php
-mudar
 $dbserver='localhost';
-para
+change
 $dbserver='127.0.0.1';
 Reinicie o Apache2 ;-)
+---- < 🐧Nano > -----
 
-========================
+---- < 🐭 = 🐼 > -----
 Eu estava enfrentando o mesmo problema. Estou usando o Ubuntu 20.04 
 usando wsl. Criei o servidor lamp com php7.3. 
 Criado novo usuário com privilégios totais. Do root e de outro usuário, 
@@ -169,8 +170,22 @@ Etapa 6 - Reinicie o mysql e o apache:
 
 sudo service mysql start
 sudi service apache2 start.
+---- < 🐭 = 🐼/ > -----
 ---------------------------------------------------
+---- < 🐧Nano > -----
+ref: dedfaut utf8
+ref: [mysql]
+port-3306
+skip-grand-tables
+port-3306
+---- < 🐧/Nano > -----
+find / -iname config.inc.php
+nano /etc/phpmyadmin/config.inc.php
+W 🐼:  find / -iname aaz
+W 🐼:  find / -iname my.ini 
+W 🐼:  nano /etc/mysql/my.cnf
 
+--------------------------------------------------------------
 
 --------------------- 🐼🐼🐼 SMB:Samba 🐼🐼🐼 ---------------------
 3 - sudo apt-get install samba
@@ -213,7 +228,7 @@ W 🐼: chmod 777 /var/www/html/
 W 🐼: chmod 777 /home/
 
 -----------------------------------------------------
-W 🐭: sudo nano /etc/systemd/system/smbd
+W 🐭=🐓||👽: sudo nano /etc/systemd/system/smbd
 W 🐭: sudo nano /etc/systemd/system/smb.service
 ---- < 🐧Nano > -----
 [Unit]
@@ -235,7 +250,9 @@ W 🐼: sudo systemctl enable smb.service
 W 🐼: sudo systemctl status smb.service
 -------------------------------------------------------------
 
---------------------- 🐼🐼🐼 SYSTEMD 🐼🐼🐼 ---------------------
+-------------------------------- -------------- end is over!!! , now a list of errors and information ------------------------------------------------------------------
+
+--------------------- 🐓🐓🐓 SYSTEMD 🐓🐓🐓 ---------------------
 W 🐼: sudo apt-get install systemd
 W 🐼: sudo apt install grub
 W 🐼: sudo apt-get purge --auto-remove docker-init
