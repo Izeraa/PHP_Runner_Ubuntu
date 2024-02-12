@@ -34,20 +34,21 @@ https://github.com/Izeraa/PHP_Runner_Ubuntu
                                   
                         #🦁 File Manager: Samba : 
 -Acc,Groub,Password 🐘 spongebob  WORKGROUP  Sandy_Cheeks2@3A34!
-- < Windowns > : \\ip   Ex- \\192.168.0.176/    
-- < Linux 🐧 > :  smb://ip/        Ex- smb://172.17.0.3/  
+- < Windowns > : Ex:\\ip   Ex:\\192.168.0.176/    
+- < Linux 🐧 > :  smb://ip/        Ex- smb://172.17.0.2/   smb://172.17.0.3/   
 
                            # 🦁 PhpMyAdmin  
-- https://ip/phpmyadmin              Ex: 172.17.0.3/phpmyadmin
+- https://ip/phpmyadmin              Ex:   http://172.17.0.2/phpmyadmin/    http://172.17.0.3/phpmyadmin
 - User: spongebob phpmyadmin 1fcf51a30859 mysql root  
 - Password: Sandy_Cheeks2@3A34!
 - 🐭👀🦁 🐼
+- /*  host = no pc = localhost  ta no php info 172.17.0.2 localhost Erro of php my admin seen in phpmyadmin  127.0.0.1 or 127.0.0.1:3306 */
+- ex: $con_one = new PDO("mysql:host=127.0.0.1:3306;dbname=Captain_America","spongebob","Sandy_Cheeks2@3A34!");
 
                    # 🦁Installation In Porteiner 
 - W 🐼: PHP-Runner-Ubuntu PHP_Runner_Ubuntu  PHP Runner Ubuntu   PHP_Runner_SPONGEBOB PhpRunnerSpongebob 
 - W 🐼: Image: 
--           2° - ubuntu:latest debian:latest  alpine:latest  ubuntu:jammy  
--           1° - ubuntu  or 
+
 - W 🐼: aways pull image: disable
 - W 🐼: Network ports configuration: enable : 8080 8080
 - W 🐼: Access control : disable : all
@@ -59,9 +60,7 @@ https://github.com/Izeraa/PHP_Runner_Ubuntu
               - privilege mod:enable  
               - Init:disable  
               - memory : 1500 
-W ! : Capabilities: // audit and controlert && sys tyt
- 
-aways interative 
+
 
 --------------------- 🐼🐼🐼 Ferramentas 🐼🐼🐼 ---------------------
 
@@ -100,6 +99,7 @@ W 🐼: apt upgrade
 
 # Mudar o Nome : spongebob
 W : apt install systemctl
+W 🐼: hostname spongebob
 W 🐓: sudo hostname spongebob
 W 🐓: su hostname spongebob
 W 🐓: nano /etc/hostname    spongebob      ★ ★ ★
