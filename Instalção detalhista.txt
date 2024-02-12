@@ -50,6 +50,7 @@ WantedBy=multi-user.target
 W 🐼: sudo apt-get install php
 W 👽: sudo systemctl enable php-fpm
 W 🐼: sudo apt-get install php-mysql
+W 🐼: sudo apt install php libapache2-mod-php php-mysql
 W 👀: php -v
 
 --------------------------------------------------------------
@@ -228,6 +229,7 @@ W 🐼: chmod 777 /var/www/html/
 W 🐼: chmod 777 /home/
 
 -----------------------------------------------------
+---- < 🐓🐓🐓🐓🐓 > -----
 W 🐭=🐓||👽: sudo nano /etc/systemd/system/smbd
 W 🐭: sudo nano /etc/systemd/system/smb.service
 ---- < 🐧Nano > -----
@@ -248,6 +250,7 @@ W 🐼: sudo systemctl daemon-reload
 W 🐼: sudo systemctl enable smbd
 W 🐼: sudo systemctl enable smb.service
 W 🐼: sudo systemctl status smb.service
+---- < 🐓🐓🐓🐓🐓/ > -----
 -------------------------------------------------------------
 
 -------------------------------- -------------- end is over!!! , now a list of errors and information ------------------------------------------------------------------
