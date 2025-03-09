@@ -1,119 +1,1188 @@
---------------------- 🐼🐼🐼 Talk 🐼🐼🐼 ---------------------
 🐭👀🦁 🐼🐘🐓 👽
-🐭:Bug   👀:See  
-🐼: Write/Use  🐓: No White/Used   
-👽: Maybe White/Used : depends on use
-                # 👽
-ubuntu docker doesn't run systemd 🐓
-ubuntu desktop uses systemd 🐼 
------------------------------------------------------------
-
+--------------------- 🐼🐼🐼 Talk 🐼🐼🐼 ---------------------
 https://github.com/Izeraa/PHP_Runner_Ubuntu
 
-              # Ubuntu Docker - PHP_Runner_Ubuntu
 
-                           # Talk
-- a project for the study of php, mysql
-- when connecting the container run the bug codes,ubuntu docker doesn't run systemd
-- we have to on the services
+		                   # Talk
+	- a project for the study of php, mysql	
+	- when connecting the container run the bug codes,ubuntu docker doesn't run systemd
+	- we have to on the services >>> I Am Noob
 
-                           # 🐭 Bugs Codes 🐭
-- W 👀: sudo service apache2 status
-- W 🐭: sudo service apache2 restart
-- W 🐭: sudo service mysql restart
-- W 🐭: sudo service smbd restart
-- W 🐭: sudo selinux-activate
-- W 🐭: sudo service apache2 restart
-  
-                 # ALL ACC AND PASSWORD
-- ALL_Cont : spongebob 
-- ALL_Password : passwd : Sandy_Cheeks2@3A34!
+	- W 👀: sudo service apache2 status
+	- W 🐼: sudo service apache2 restart
+	- W 🐼: sudo service mysql restart
+	- W 🐼: sudo service smbd restart
+	- W 🐼: sudo selinux-activate
+	- W 🐼: sudo service apache2 restart
+	- W 🐼: cloudcmd
+   
+--------------------- 🐼🐼🐼 🐭 🐼🐼🐼 ---------------------
 
-                              # 🦁 WWW  
--https://ip/    Ex: https://172.17.0.3/
-                                  
-                        #🦁 File Manager: Samba : 
--Acc,Groub,Password 🐘 spongebob  WORKGROUP  Sandy_Cheeks2@3A34!
-- < Windowns > : Ex:\\ip   Ex:\\192.168.0.176/    
-- < Linux 🐧 > :  smb://ip/        Ex- smb://172.17.0.2/   smb://172.17.0.3/   
-
-                           # 🦁 PhpMyAdmin  
-- https://ip/phpmyadmin              Ex:   http://172.17.0.2/phpmyadmin/    http://172.17.0.3/phpmyadmin
-- User: spongebob phpmyadmin 1fcf51a30859 mysql root  
-- Password: Sandy_Cheeks2@3A34!
-- 🐭👀🦁 🐼
-- /*  host = no pc = localhost  ta no php info 172.17.0.2 localhost Erro of php my admin seen in phpmyadmin  127.0.0.1 or 127.0.0.1:3306 */
-- ex: $con_one = new PDO("mysql:host=127.0.0.1:3306;dbname=Captain_America","spongebob","Sandy_Cheeks2@3A34!");
-
-                   # 🦁Installation In Porteiner 
-- W 🐼: PHP-Runner-Ubuntu PHP_Runner_Ubuntu  PHP Runner Ubuntu   PHP_Runner_SPONGEBOB PhpRunnerSpongebob 
-- W 🐼: Image: 
-
-- W 🐼: aways pull image: disable
-- W 🐼: Network ports configuration: enable : 8080 8080
-- W 🐼: Access control : disable : all
-- W 🐼: Command & logging : Console: Interactive: -i     // & TTY (-i -t) 
-- W 🐼: Restart policy : 
--                        #Unless_stoped  
--                        #Aways
-- W 🐼:Runtime :  
-              - privilege mod:enable  
-              - Init:disable  
-              - memory : 1500 
+	SITE: 	● IP : LOOK IN PORTAINER CONTAINER IP - https://172.17.0.2/ - 
+	UBUNTU:	● USER : root	● PASSEWORD: 123  ● IP : LOOK IN PORTAINER 
+	MYSQL:	● USER : panda	● PASSEWORD: 123  ● IP : LOOK IN PHPMYADMIN OR UBUNTU
+	PHPMYADMIN: ● USER : phpmyadmin ● PASSEWORD: 123 ● IP : - http://localhost:8000 - http://172.17.0.2/phpmyadmin/ - http://172.17.0.3/phpmyadmin 
+	CLOUDER COMANDER: ● IP : http://localhost:8000/
+	🐓 SMB : ● IP : \\192.168.0.176/rede/ smb://192.168.0.176/rede/  https://172.17.0.2/ smb://172.17.0.2/
 
 
---------------------- 🐼🐼🐼 Ferramentas 🐼🐼🐼 ---------------------
+--------------------- 🐼🐼🐼 🐭 🐼🐼🐼 ---------------------
+🐭👀🦁 🐼🐘🐓 👽
+🐭: BUG   
+👀: SEE  
+🐼: USE  
+🐓: NOT USE   
+👽: USE PC INSTALL : Direct installation : Maybe White/Used : depends on use	  
+		        
+-----------------------------------------------------------
 
+--------------------- 🐼🐼🐼 Talk 🐼🐼🐼 ---------------------
+                # 👽
+ubuntu docker doesn't run systemd 🐓
+ubuntu desktop uses systemd 🐼
+
+PANDA ADMIN
+
+	- Password: Sandy_Cheeks2@3A34!
+	- 🐭👀🦁 🐼
+	- /*  host = no pc = localhost  ta no php info 172.17.0.2 localhost Erro of php my admin seen in phpmyadmin  127.0.0.1 or 127.0.0.1:3306 */
+	- ex: $con_one = new PDO("mysql:host=127.0.0.1:3306;dbname=Captain_America","panda","123");
  
+-----------------------------------------------------------
 
-lsb_release -a 
-lsb_release -a
-ps -p 1 -o comm=  
-|| docker-init || qual comando para inciar o php com sistemd ||qual comando para inciar o apache2 com docker-init
-nano /.dockerenv
-apt install ranger
-df -h
+
+
+
+
+                          
+--------------------------------------------------------
+		           # 🦁Installation In Porteiner 
+	- W 🐓: system : sudo mkdir -p /media/Docker/ubuntu-php                   /caminho/para/dados/nextcloud
+	- W 🐓: system : sudo chmod 777 /media/Docker/
+	- W 🐓: Na seção de Volumes, clique em map a volume.
+	
+     	         PHP_Runner_Ubuntu
+	- W 🐼: NAME: 
+		● Panda_Admin ● Ubuntu_Runner_PHP   
+	- W 🐼: Image: 
+		● ubuntu:latest
+	- W 🐼: aways pull image: ● disable  ● Maybe On fist install
+	- W 🐼: Network ports configuration: ● ENABLE : 
+                ● Port Mapping :  ◄ : 8080  ► : 8080
+	- W 🐼: Access control : ●  disable : all
+	- W 🐼: Command & logging : 
+		● User:		
+		● Console:   Interactive: -i     // & TTY (-i -t)
+	- W 🐓: VOLUME :      
+	- W 🐓: Bind
+	- W 🐓: - host: /home/
+	- W 🐓: - host: /media/Docker/ubuntu-php/
+
+
+	·	Volume type: Selecione Bind.
+	·	Host path: Informe o caminho da pasta onde você deseja armazenar os dados (ex: /caminho/para/dados/nextcloud).
+	·	Container path: Defina o caminho dentro do container onde os dados do Nextcloud serão armazenados, que geralmente é /var/www/html.
+	1.	A configuração de volumes ficará assim:
+	2.	Host path: /caminho/para/dados/nextcloud
+	3.	Container path: /var/www/html
+	 
+	- W 🐼: Restart policy : 
+	-                        #Unless_stoped  
+	-                        #Aways
+	- W 🐼:Runtime :  
+		      - privilege mod:enable  
+		      - Init:disable  
+		      - memory : 1500 
+
+Commands & logging
+
+
+--------------------- 🐼🐼🐼 one 🐼🐼🐼 --------------------
+	W 🐼: apt-get update
+	W 🐼: apt-get upgrade
+	W 🐼: apt update
+	W 🐼: apt list --upgradable
+	W 🐼: apt upgrade
+
+-------------------------------------------------------------
+ apt-utils
+
+--------------------- 🐼🐼🐼 two 🐼🐼🐼 --------------------         
+	W 🐼: apt install sudo
+	W 🐼: apt install nano
+	W 🐼: sudo apt install nano
+	W 🐼: passwd : 123 Sandy_Cheeks2@3A34!
+	W 🐼: apt update
+	W 🐼: apt list --upgradable
+	W 🐼: apt upgrade
+
+	# Mudar o Nome : spongebob
+	W 🐓: apt install systemctl
+	W 🐼: hostname spongebob
+	W 🐓: sudo hostname spongebob
+	W 🐓: su hostname spongebob
+	W 🐓: nano /etc/hostname    spongebob      ★ ★ ★
+	W 🐓: vim /etc/hostname
+--------------------------------------------------------
+	# Mudar a senha : passwd : Sandy_Cheeks2@3A34!
+	W 🐓: adduser panda 123
+	W 🐓: adduser panda sudo
+--------------------------------------------------------
+	W 🐓: adduser spongebob : Sandy_Cheeks2@3A34!
+	W 🐓: adduser spongebob sudo
+	W 🐼: sudo -v
+--------------------------------
+	W 🐓: adduser docker : panda
+	W 🐓: adduser docker sudo
+	W 🐼: sudo -v  docker  // 8006
+	panda
+----------------------------------
+	sudo apt install snapd
+	apt update
+	apt upgrade
+
+--------------------- 🐼🐼🐼 APACHE  🐼🐼🐼 ---------------------
+W 🐼: sudo apt install lamp-server^
+--------------------- 🐼🐼🐼 APACHE  🐼🐼🐼 ---------------------
+
+            
+W 🐼: apt-get install apache2 -y
+W 👽: sudo apt-get install apache2 -y
+W 🐭: sudo apt-get remove apache2
+W 👽: sudo systemctl enable apache2
+W 👽: sudo systemctl enable apache2.service
+W 👽: sudo systemctl start apache2
+W 👀: sudo service apache2 status
+W 🐭: sudo service apache2 restart
+
+W 👀: sudo cp /etc/apache2/apache2.conf /etc/apache2/apache2.conf.backup
+W 👀: sudo nano /etc/apache2/apache2.conf
+
+W 🐭 = 🐓||👽:force systemd: sudo nano /etc/systemd/system/apache2
+W 🐭 = 🐓||👽:force systemd: sudo nano /etc/systemd/system/apache2.service
+---- <🐧Nano > -----
+[Unit]
+Description=The Apache HTTP Server
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/sbin/apachectl start
+ExecStop=/usr/sbin/apachectl stop
+ExecReload=/usr/sbin/apachectl graceful
+PIDFile=/run/httpd/httpd.pid
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+---- < 🐧/Nano > -----
+
+--------------------------------------------------------------  
+
+
+
+--------------------- 🐼🐼🐼 PHP 🐼🐼🐼 ---------------------
+            
+	W 🐼: apt install php libapache2-mod-php php-mysql	
+	W 👽: sudo systemctl enable php-fpm	
+	W 🐼: apt-get install php
+	W 🐼: sudo apt-get install php
+	W 🐼: apt-get install php-mysql
+	W 👀: php -v
+
+--------------------------------------------------------------
+
+--------------------- 🐼🐼🐼 MYSQL 🐼🐼🐼 ---------------------
+
+W 🐼: apt-get install mysql-server -y
+W 👽: sudo apt-get install mysql-server -y
+W 👽: sudo systemctl enable mysql
+W 👽: sudo systemctl start mysql
+W 👽: sudo systemctl enable mysql.service
+W 👀: mysql  // TEST WORK  no f. nano 🐧
+W 🐘: sudo service mysql restart
+W 🐘: sudo service mysql status  
+W 🐭 - 🐼 : nano /etc/mysql/my.cnf
+---- < 🐼 🐧 nano > -----
+!includedir /etc/mysql/conf.d/
+!includedir /etc/mysql/mysql.conf.d/
+
+[mysqld]
+socket = /var/run/mysqld/mysqld.sock
+#skip-grand-tables
+
+---- < 🐧/Nano > -----
+
+---- < 🐓🐓🐓🐓🐓 > -----
+user            = panda
+password        = 123
+sudo mkdir /var/lib/mysql/data
+nano /etc/mysql/conf.d/mysql.cnf 
+amei
+nano /etc/mysql/mysql.conf.d/mysqld.cnf
+nano /etc/mysql/my.cnf
+port=3306
+[mysqld]
+user=
+password=
+socket = /var/run/mysqld/mysqld.sock
+---- < 🐓🐓🐓🐓🐓/ > -----
+  
+W 🐭=🐓||👽 : force systemd: sudo nano /etc/systemd/system/mysql
+W 🐭:🐓||👽 : force systemd:  sudo nano /etc/systemd/system/mysql.service
+---- < 🐧Nano > -----
+[Unit]
+Description=MySQL Server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/mysqld --daemonize --pid-file=/run/mysqld/mysqld.pid
+Restart=always
+
+[Install]
+WantedBy=default.target
+---- < 🐧/Nano > -----
+
+--------------------- 🐼🐼🐼 MYSQL PART 2 🐼🐼🐼 ---------------------
+	W 🐼:  service mysql restart 
+	W 🐼:  service mysql restart 
+	W 🐼:  mysql
+	W 🐼:  mysql -p -u root
+	W 🐼:  // PASSWORD =  123 ENTER    
+	W 🐼:  CREATE USER 'panda'@'localhost' IDENTIFIED BY '123';
+	W 🐼:  GRANT ALL PRIVILEGES ON *.* TO 'panda'@'localhost';
+	W 🐼:  FLUSH PRIVILEGES;
+	W 🐼:  EXIT;
+	W 🐼:  sudo service mysql restart
+
+--------------------------------------------------------------
+
+--------------------- 🐼🐼🐼 PHP MY ADMIN 🐼🐼🐼 ---------------------
+	W 🐼:  apt install phpmyadmin
+	W 🐭:  sudo apt remove phpmyadmin 
+	W 🐼:   // espaço para marca apache
+	W 🐼:  Senha php my admin : 123 \\ Sandy_Cheeks2@3A34!
+	W 🐼:  localhost:/phpmyadmin ● 172.17.0.2/phpmyadmin
+	W 🐼:  sudo apt install phpmyadmin        // espaço para marca
+	W 🐭= 🐼: nano /etc/phpmyadmin/config-db.php
+ 	phpmyadmin@localhost
+	---- < 🐧Nano > -----
+	$dbserver='localhost';
+	change
+	$dbserver='127.0.0.1';
+	Reinicie o Apache2 ;-)
+	---- < 🐧Nano > -----
+
+	---- < 🐭 = 🐼 > -----
+	- W 🐼: sudo service apache2 restart
+	- W: sudo service apache2 restart
+--------------------------------------------------------------
+
+
+--------------------- 🐼🐼🐼 SELINUX 🐼🐼🐼 ---------------------
+	Eu estava enfrentando o mesmo problema. Estou usando o Ubuntu 20.04 
+	usando wsl. Criei o servidor lamp com php7.3. 
+	Criado novo usuário com privilégios totais. Do root e de outro usuário, 
+	obtendo o mesmo erro.
+
+	Mas consegui a solução: agora primeiro precisamos instalar o Selinux . 
+	Aqui estão os comandos:
+
+	Passo 1 - Instale o Selinux:
+
+	W 🐼: sudo apt install policycoreutils selinux-utils selinux-basics
+
+	# Passo 2 - Ativar:
+	W 🐭: sudo selinux-activate
+
+	Etapa 3 - Ative httpd_can_network_connect_db 1:
+
+	Por padrão, a política httpd_can_network_connect_db está desabilitada 
+	(o que significa que seu servidor web não pode entrar em contato 
+	com um banco de dados remoto).
+
+	W 🐼: getsebool -a | grep httpd
+	Se httpd_can_network_connect_db estiver desativado, 
+	habilite-o por meio de:
+
+	W 🐼: setsebool -P httpd_can_network_connect_db 1
+
+	# Passo 4 - Talvez seja necessário alterar: 
+	altere localhost para 127.0.0.1 em 
+	W 🐼: nano /etc/phpmyadmin/config.inc.php
+	localhost
+	$cfg['Servers'][$i]['host'] = '127.0.0.1';
+	Etapa 6 - Reinicie o mysql e o apache:
+
+	sudo service mysql start
+	sudi service apache2 start.
+	---- < 🐭 = 🐼/ > -----
+	---------------------------------------------------
+	---- < 🐧Nano > -----
+	ref: dedfaut utf8
+	ref: [mysql]
+	port-3306
+	skip-grand-tables
+	port-3306
+	---- < 🐧/Nano > -----
+	find / -iname config.inc.php
+	nano /etc/phpmyadmin/config.inc.php
+	W 🐼:  find / -iname aaz
+	W 🐼:  find / -iname my.ini 
+	W 🐼:  nano /etc/mysql/my.cnf
+
+	--------------------------------------------------------------
+
+--------------------- 🐼🐼🐼 Cloud Commander 🐼🐼🐼 ---------------------
+🐭👀🦁 🐼🐘🐓 👽 
+W 🐼: apt install nodejs npm -y
+W 👽: sudo apt install nodejs npm -y
+🐘 ,134 ? Time data
+W 👀: node -v
+W 👀: npm -v
+W 🐼-👽: npm i cloudcmd -g
+W 🐼-👽: npm i cloudcmd -g --force
+W 🐼-👽: cloudcmd     // 👀 LOOK PORT 
+●172.17.0.2:8000
+
+-a, --auth	enable authorization
+-u, --username	set username
+-p, --password	set password
+-c, --config	configuration file path
+--show-config	show config values
+--show-dot-files	show dot files
+--show-file-name	show file name in view and edit
+--editor	set editor: “dword”, “edward” or “deepword”
+--packer	set packer: “tar” or “zip”
+--root	set root directory
+--prefix	set url prefix
+--prefix-socket	set prefix for url connection
+--port	set port number
+W: sudo snap install nextcloud
+W: sudo snap set nextcloud ports.http=433
+W: Add App  : External Storage Support  
+W: open admin setings : “in seççao to down adminstrate “↓...↓...↓” 
+W: open External Storage Support  : LoCAl_hOSt_:_Port/index.php/settings/user/externalstorages 
+W:  Creat past “Admin” in nextcloud —> amin configure  —> external store —> “admin”  local: / 
+W:  Creat past “WWW” in nextcloud —> amin configure  —> external store —> “WWW”  local: /var/www/html/
+s: /var/www/html/
+--------------------------------------------------------------
+
+
+
+--------------------- 🐼🐼🐼 Nextcloud 🐼🐼🐼 ---------------------
+W: sudo snap install nextcloud
+W: sudo snap set nextcloud ports.http=433
+W: Add App  : External Storage Support  
+W: open admin setings : “in seççao to down adminstrate “↓...↓...↓” 
+W: open External Storage Support  : LoCAl_hOSt_:_Port/index.php/settings/user/externalstorages 
+W:  Creat past “Admin” in nextcloud —> amin configure  —> external store —> “admin”  local: / 
+W:  Creat past “WWW” in nextcloud —> amin configure  —> external store —> “WWW”  local: /var/www/html/
+s: /var/www/html/
+--------------------------------------------------------------
+
+--------------------- 🐼🐼🐼 SMB:Samba 🐼🐼🐼 ---------------------
+3 - sudo apt-get install samba
+4 - sudo apt-get install net-tools -y
+8 - sudo nano /etc/samba/smb.conf
+
+W 🐼: sudo nano /etc/samba/smb.conf
+---- < 🐧Nano > -----
+[www]
+comment =  progamas essenciais
+path = /var/www/html/ 
+read only = no
+writable = yes
+browseable = yes
+valid users = panda
+
+[Barra]
+comment =  
+path = / 
+read only = no
+writable = yes
+browseable = yes
+valid users = panda 
+
+[Home]
+comment =  
+path = /home/ 
+read only = no
+writable = yes
+browseable = yes
+valid users = panda 
+---- < 🐧/Nano > -----
+10 --- criar um usuario samba e senha 
+W 🐼: smbpasswd -a panda 
+                    123
+W 🐼: sudo service smbd restart
+W 🐼: sudo systemctl start smbd
+W 🐼: sudo systemctl enable smbd
+W 🐼: sudo chmod 777 /var/www/html/
+W 🐼: sudo chmod 777 /home/
+
+-----------------------------------------------------
+
+
+
+--------------------- 🐼🐼🐼 Systemcl 🐼🐼🐼 ---------------------
+	W 🐼: /etc/init.d/
+	W 🐼: touch initd.sh
+	W 🐼: nano initd.sh
+	W 🐼: 
+-------------
+#!/bin/sh
+echo "Rodando um serviço..."
+service apache2 restart
+service mysql restart
+service apache2 restart
+cloudcmd
+
+-----------
+#!/bin/sh
+echo "Rodando um serviço..."
+# Comandos aqui
+
+---
+	- W 🐼: sudo service smbd restart
+	- W 🐼: sudo selinux-activate
+
+
+sudo snap set nextcloud ports.http=433
+
+s: /var/www/html/
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- < 🐓🐓🐓🐓🐓 > -----
+W 🐭=🐓||👽: sudo nano /etc/systemd/system/smbd
+W 🐭: sudo nano /etc/systemd/system/smb.service
+---- < 🐧Nano > -----
+[Unit]
+Description=Samba SMB/CIFS server
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/sbin/smbd -D
+ExecReload=/bin/kill -HUP $MAINPID
+PIDFile=/run/smbd.pid
+
+[Install]
+WantedBy=multi-user.target
+---- < 🐧/Nano > -----
+W 🐼: sudo systemctl daemon-reload
+W 🐼: sudo systemctl enable smbd
+W 🐼: sudo systemctl enable smb.service
+W 🐼: sudo systemctl status smb.service
+---- < 🐓🐓🐓🐓🐓/ > -----
+-------------------------------------------------------------
+
+-------------------------------- -------------- end is over!!! , now a list of errors and information ------------------------------------------------------------------
+
+--------------------- 🐓🐓🐓 SYSTEMD 🐓🐓🐓 ---------------------
+W 🐼: sudo apt-get install systemd
+W 🐼: sudo apt install grub
+W 🐼: sudo apt-get purge --auto-remove docker-init
+
+W 🐼: sudo apt-get update
+W 🐼: sudo apt-get install grub-pc
+W 🐼: sudo update-grub
+W 🐼: sudo grub-install /dev/sda
+W 🐼: sudo reboot
+
+
+W 🐓: echo "ServerName localhost" >> /etc/apache2/apache2.conf
+W 🐓: /usr/bin/docker-init  /usr/sbin/apache2ctl
+W 🐓: nano /usr/bin/docker-init  /usr/sbin/apache2ctl
+--
+sudo systemd start apache2
+sudo systemd enable apache2
+W 🦁: sudo systemctl enable apache2
+-------------------------------------------------------------
+=====
+W 🐼: sudo systemctl start httpd
+W 🐼: sudo systemctl enable httpd
+
+
+
+----------------------------------
+W 🐼: sudo systemctl daemon-reload
+--------------------------
 sudo apt-get update
 sudo apt-get install findutils
-find / -iname httpd.conf
 apt install htop
 
 httpd.conf
+find / -iname httpd.conf
+find / -iname config.inc.php
+---------------
+1- Listar todos os serviços:
+systemctl list-units --type=service
+Listar apenas serviços ativos:
+systemctl list-units --type=service --state=active
+Listar apenas serviços falhados:systemctl list-units --type=service --state=failed
+Listar apenas serviços que não estão sendo iniciados na inicialização:
+systemctl list-unit-files --type=service | grep disabled
 
---------------------- 🐼🐼🐼 one 🐼🐼🐼 --------------------
-W 🐼: apt-get update
-W 🐼: apt-get upgrade
-W 🐼: apt update
-W 🐼: apt list --upgradable
-W 🐼: apt upgrade
-W 🐼: apt install sudo
+
 -------------------------------------------------------------
+W 🐼: sudo apt-get install systemd
+W 🐼: sudo apt install grub
+W 🐼: sudo apt-get purge --auto-remove docker-init
+
+W 🐼: sudo apt-get update
+W 🐼: sudo apt-get install grub-pc
+W 🐼: sudo update-grub
+W 🐼: sudo grub-install /dev/sda
+W 🐼: sudo reboot
 
 
---------------------- 🐼🐼🐼 two 🐼🐼🐼 --------------------         
-W 🐼: sudo apt install nano
-W 🐼: passwd : Sandy_Cheeks2@3A34!
-W 🐼: apt update
-W 🐼: apt list --upgradable
-W 🐼: apt upgrade
+sudo update-grub
+sudo reboot
 
-# Mudar o Nome : spongebob
-W : apt install systemctl
-W 🐼: hostname spongebob
-W 🐓: sudo hostname spongebob
-W 🐓: su hostname spongebob
-W 🐓: nano /etc/hostname    spongebob      ★ ★ ★
-W 🐓: vim /etc/hostname
- 
-# Mudar a senha : passwd : Sandy_Cheeks2@3A34!
+As distribuições Linux modernas geralmente usam o systemd como sistema init padrão. No entanto, em alguns casos, 
+você pode querer ou precisar mudar para outro init system, como o SysV init ou o OpenRC. Aqui estão algumas considerações gerais, 
+mas lembre-se de que os procedimentos exatos podem variar dependendo da distribuição específica que você está usando.
 
-W 🐼: adduser spongebob : Sandy_Cheeks2@3A34!
-W 🐼: adduser spongebob sudo
-W 🐼: sudo -v
+Mudança para o SysV Init:
+Instalação do SysV Init:
 
-sudo apt install snapd
-apt update
-apt upgrade
+Desative o systemd:
+
+festa
+
+Copiar código
+sudo systemctl mask systemd-logind
+sudo apt-get install sysvinit-core
+
+sudo apt-get i
+Remova o systemd:
+
+festa
+
+Copiar código
+sudo apt-get purge --auto-remove systemd
+
+``
+Instale o SysV Init:
+
+festa
+
+Copiar código
+sudo apt-get install sysvinit
+Atualização do GRUB:
+
+Atualize o GRUB para definir o init padrão:
+festa
+
+Copiar código
+sudo update-grub
+Reinicialização:
+
+Reinicie o sistema:
+festa
+
+Copiar código
+sudo reboot
+Mudança para o OpenRC:
+Instalação do OpenRC:
+
+Instale o OpenRC:
+festa
+
+Copiar código
+sudo apt-get install openrc
+Atualização do GRUB:
+
+Atualize o GRUB para definir o init padrão:
+festa
+
+Copiar código
+sudo update-grub
+Reinicialização:
+
+Reinicie o sistema:
+festa
+
+Copiar código
+sudo reboot
+Lembre-se de que essas instruções são simplificadas e podem não funcionar perfeitamente em todas as distribuições Linux. Antes de fazer qualquer alteração significativa, é altamente recomendável fazer backup dos dados importantes e entender completamente os riscos associados à mudança do init system. Além disso, algumas distribuições podem ter ferramentas específicas para facilitar a mudança do init system. Sempre consulte a documentação oficial da sua distribuição para obter informações específicas.
+
+
+
+---------------------------------------------
+LLLLLLLLLLLLLLLLLLLLLLLLLLLLLiiiiiiiiiiiiiiiiiiiiixxxxxxxxxxxxxxxxxxxxxxxooooooooooooooooooooooooooooooooooooooooo
+sudo systemctl enable mysql.service
+sudo systemctl start mysql.service
+sudo systemctl status mysql.service
+00000000000000000000000000
+W: sudo service apache2 status  
+W: php -v 
+sudo service apache2 enable
+-----------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+mmmmmmmmmmmmmmmmmmyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyysssssssssssssssssssssssssqqqqqqqqqqqqqqqqqqqllllllllllllllllllllllllll
+
+
+user            = spongebob
+password        = Sandy_Cheeks2@3A34!
+--------------tustus
+sudo mkdir /var/lib/mysql/data
+nano /etc/mysql/conf.d/mysql.cnf 
+amei
+nano /etc/mysql/mysql.conf.d/mysqld.cnf
+-------------------
+[mysqld]
+#
+# * Basic Settings
+#
+user            = spongebob
+password        = Sandy_Cheeks2@3A34!
+# pid-file      = /var/run/mysqld/mysqld.pid
+# socket        = /var/run/mysqld/mysqld.sock
+port            = 3306
+datadir = /var/lib/mysql
+-------------------
+
+-------------------
+[mysqld]
+#skip-grand-tables
+# Local do arquivo de soquete do MySQL
+socket = /var/run/mysqld/mysqld.sock
+port=3306
+# Diretorio de dados do MySQL
+# basedir="/var/lib/mysql"
+# datadir="/var/lib/mysql"
+# pid_file="mysql.pid"
+# Usuario do MySQL
+user=spongebob
+password=Sandy_Cheeks2@3A34!
+
+# Configurac es de seguranca
+# Desativa a escuta de rede. Use apenas conex  es locais.
+skip-networking
+# Desativa a resolu    o de nomes de DNS (pode aumentar a seguran  a)
+skip-name-resolve
+
+# Configura    es de caractere e collation
+character-set-server=utf8mb4
+collation-server=utf8mb4_general_ci
+
+# Configura    es de log
+log-error=/var/log/mysql/error.log
+# Arquivo de log de erros do MySQL
+
+# Configura    es de tamanho e cache
+key_buffer_size=16M
+max_allowed_packet=16M
+thread_stack=192K
+thread_cache_size=8
+
+# Configuracoes de InnoDB (se estiver usando o mecanismo InnoDB)
+innodb_buffer_pool_size=64M
+innodb_flush_log_at_trx_commit=1
+innodb_log_buffer_size=8M
+innodb_log_file_size=32M
+
+# Configura    es de ajuste de desempenho adicionais
+query_cache_size=16M
+query_cache_limit=1M
+query_cache_type=1
+
+# Configura    es de ajuste do servidor (ajuste conforme necess  rio)
+key_buffer_size=64M
+max_connections=100
+sort_buffer_size=256K
+read_buffer_size=256K
+read_rnd_buffer_size=512K
+max_connect_errors=100
+myisam_sort_buffer_size=8M
+net_buffer_length=8K
+table_open_cache=64
+
+00000000000000000 🐼izera Gpt W 🐭: nano /etc/mysql/my.cnf  000000000000000000000000000000000000
+# Exemplo básico do arquivo my.cnf para MySQL
+!includedir /etc/mysql/conf.d/
+!includedir /etc/mysql/mysql.conf.d/
+port-3306
+[mysqld]
+datadir=/var/lib/mysql  # Diretório de dados do MySQL
+socket = /var/run/mysqld/mysqld.sock  # Local do arquivo de soquete do MySQL
+user=spongebob  # Usuário do MySQL
+
+# Configurações de segurança
+skip-networking  # Desativa a escuta de rede. Use apenas conexões locais.
+skip-name-resolve  # Desativa a resolução de nomes de DNS (pode aumentar a segurança)
+
+# Configurações de caractere e collation
+character-set-server=utf8mb4
+collation-server=utf8mb4_general_ci
+
+# Configurações de log
+log-error=/var/log/mysql/error.log  # Arquivo de log de erros do MySQL
+
+# Configurações de tamanho e cache
+key_buffer_size=16M
+max_allowed_packet=16M
+thread_stack=192K
+thread_cache_size=8
+
+# Configurações de InnoDB (se estiver usando o mecanismo InnoDB)
+innodb_buffer_pool_size=64M
+innodb_flush_log_at_trx_commit=1
+innodb_log_buffer_size=8M
+innodb_log_file_size=32M
+
+# Configurações de ajuste de desempenho adicionais
+query_cache_size=16M
+query_cache_limit=1M
+query_cache_type=1
+
+# Configurações de ajuste do servidor (ajuste conforme necessário)
+key_buffer_size=64M
+max_connections=100
+sort_buffer_size=256K
+read_buffer_size=256K
+read_rnd_buffer_size=512K
+max_connect_errors=100
+myisam_sort_buffer_size=8M
+net_buffer_length=8K
+table_open_cache=64
+
+
+
+000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000 Gpt 000000000000000000000000000000000000
+# Exemplo básico do arquivo my.cnf para MySQL
+
+[mysqld]
+datadir=/var/lib/mysql  # Diretório de dados do MySQL
+socket=/var/lib/mysql/mysql.sock  # Local do arquivo de soquete do MySQL
+user=mysql  # Usuário do MySQL
+bind-address=127.0.0.1  # Endereço IP para o qual o servidor MySQL escutará
+
+# Configurações de segurança
+skip-networking  # Desativa a escuta de rede. Use apenas conexões locais.
+skip-name-resolve  # Desativa a resolução de nomes de DNS (pode aumentar a segurança)
+
+# Configurações de caractere e collation
+character-set-server=utf8mb4
+collation-server=utf8mb4_general_ci
+
+# Configurações de log
+log-error=/var/log/mysql/error.log  # Arquivo de log de erros do MySQL
+
+# Configurações de tamanho e cache
+key_buffer_size=16M
+max_allowed_packet=16M
+thread_stack=192K
+thread_cache_size=8
+
+# Configurações de InnoDB (se estiver usando o mecanismo InnoDB)
+innodb_buffer_pool_size=64M
+innodb_flush_log_at_trx_commit=1
+innodb_log_buffer_size=8M
+innodb_log_file_size=32M
+
+# Configurações de ajuste de desempenho adicionais
+query_cache_size=16M
+query_cache_limit=1M
+query_cache_type=1
+
+# Configurações de ajuste do servidor (ajuste conforme necessário)
+key_buffer_size=64M
+max_connections=100
+sort_buffer_size=256K
+read_buffer_size=256K
+read_rnd_buffer_size=512K
+max_connect_errors=100
+myisam_sort_buffer_size=8M
+net_buffer_length=8K
+table_open_cache=64
+
+
+
+000000000000000000000000000000000000000000000000000000000000000000000
+#
+# The MySQL database server configuration file.
+#
+# You can copy this to one of:
+# - "/etc/mysql/my.cnf" to set global options,
+# - "~/.my.cnf" to set user-specific options.
+# 
+# One can use all long options that the program supports.
+# Run program with --help to get a list of available options and with
+# --print-defaults to see which it would actually understand and use.
+#
+# For explanations see
+# http://dev.mysql.com/doc/mysql/en/server-system-variables.html
+
+#
+# * IMPORTANT: Additional settings that can override those from this file!
+#   The files must end with '.cnf', otherwise they'll be ignored.
+#
+
+!includedir /etc/mysql/conf.d/
+!includedir /etc/mysql/mysql.conf.d/
+[mysqld]
+socket = /var/run/mysqld/mysqld.sock
+#skip-grand-tables
+00000000000000000000000000000000000000000000000000000000000000000000
+
+---- < 🐧Nano > -----
+REF: /* Authentication type */
+REF:    
+// $cfg['Servers'][$i]['auth_type'] = 'cookie';
+// $cfg['Servers'][$i]['auth_type'] = 'config';
+$cfg['Servers'][$i]['user'] = 'spongebob';
+$cfg['Servers'][$i]['password'] = 'Sandy_Cheeks2@3A34!';
+$cfg['Servers'][$i]['extension'] = 'mysqli';
+$cfg['Servers'][$i]['AllowNcpassword']-true ; 
+// pode ser um o
+// $cfg['Lang']-"'';
+---- < 🐧/Nano > ----
+00000000000000000000000000000000000000000000000000000000000
+<?php
+/* Arquivo de configuração do phpMyAdmin */
+
+// Servidores MySQL
+$cfg['Servers'][1]['host'] = 'localhost'; // Host do servidor MySQL
+$cfg['Servers'][1]['port'] = '3306';      // Porta do servidor MySQL
+$cfg['Servers'][1]['user'] = 'spongebob';   // Nome de usuário do MySQL
+$cfg['Servers'][1]['password'] = 'Sandy_Cheeks2@3A34!'; // Senha do MySQL
+$cfg['Servers'][1]['auth_type'] = 'cookie';  // Tipo de autenticação (pode ser 'config', 'cookie', 'http' etc.)
+
+
+
+// Seção de criptografia (opcional)
+$cfg['ForceSSL'] = true; // Forçar conexões SSL
+$cfg['SSLPrivateKey'] = ''; // Caminho para a chave privada SSL
+$cfg['SSLCertificate'] = ''; // Caminho para o certificado SSL
+
+// Configuração de temas (opcional)
+$cfg['ThemeDefault'] = 'original'; // Tema padrão (pode ser 'original', 'pmahomme', 'darkblue' etc.)
+
+// Seção de controle de acesso (opcional)
+$cfg['Servers'][1]['AllowNoPassword'] = false; // Permitir conexões sem senha (defina como true se não estiver usando senha)
+
+// Outras configurações personalizadas podem ser adicionadas conforme necessário
+// Outras configurações
+$cfg['blowfish_secret'] = 'sua_chave_secreta'; // Chave secreta usada pelo phpMyAdmin para a geração de cookies (substitua pela sua própria chave)
+$cfg['DefaultLang'] = 'pt_BR'; // Idioma padrão (substitua pelo seu idioma desejado)
+
+?>
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+----------------------------------
+O comando para instalar o Apache 2 pode variar dependendo da distribuição Linux que você está usando. 
+Aqui estão alguns dos comandos mais comuns para diferentes distribuições:
+
+Debian/Ubuntu
+bash
+Copy code
+sudo apt-get update
+sudo apt-get install apache2
+Red Hat / CentOS
+bash
+Copy code
+sudo yum install httpd
+Fedora
+bash
+Copy code
+sudo dnf install httpd
+Arch Linux
+bash
+Copy code
+sudo pacman -S apache
+Depois de instalar o Apache, você pode iniciar o serviço e habilitá-lo para iniciar automaticamente durante o boot. Os comandos para isso variam um pouco entre as distribuições, mas aqui estão exemplos para Debian/Ubuntu e Red Hat/CentOS:
+
+Debian/Ubuntu
+bash
+Copy code
+sudo systemctl start apache2
+sudo systemctl enable apache2
+Red Hat/CentOS
+bash
+Copy code
+sudo systemctl start httpd
+sudo systemctl enable httpd
+Depois de executar esses comandos, o Apache estará instalado e em execução em seu sistema. Você pode verificar se o Apache está funcionando acessando o endereço IP do seu servidor ou localhost em um navegador web. Por exemplo, http://localhost ou http://seu_endereco_ip.
+
+
+
+--------------------------------------
+O comando para instalar o PHP no Linux pode variar dependendo da distribuição que você está utilizando. Abaixo estão alguns dos comandos mais comuns 
+para diferentes distribuições:
+
+Debian/Ubuntu
+bash
+Copy code
+sudo apt-get update
+sudo apt-get install php
+Red Hat / CentOS
+bash
+Copy code
+sudo yum install php
+Fedora
+bash
+Copy code
+sudo dnf install php
+Arch Linux
+bash
+Copy code
+sudo pacman -S php
+Estes comandos instalarão o PHP e suas dependências básicas. Se você precisar de módulos adicionais ou extensões do PHP, você pode instalá-los separadamente. Por exemplo, para instalar o módulo do PHP para o MySQL, você pode usar o seguinte comando:
+
+bash
+Copy code
+sudo apt-get install php-mysql   # Para Debian/Ubuntu
+sudo yum install php-mysql       # Para Red Hat/CentOS
+sudo dnf install php-mysql       # Para Fedora
+sudo pacman -S php-mysql         # Para Arch Linux
+Lembre-se de reiniciar o servidor web após a instalação do PHP para que as alterações entrem em vigor. Isso pode ser feito usando um comando como:
+
+bash
+Copy code
+sudo systemctl restart apache2   # Para Apache no Debian/Ubuntu
+sudo systemctl restart httpd     # Para Apache no Red Hat/CentOS
+sudo systemctl restart nginx     # Para Nginx em qualquer distribuição
+Certifique-se de adaptar os comandos ao seu ambiente específico.
+
+--------------------------------PHP MY SQL -------------------------------------------------------------
+
+<?php
+/**
+ * Debian local configuration file
+ *
+ * This file overrides the settings made by phpMyAdmin interactive setup
+ * utility.
+ *
+ * For example configuration see
+ *   /usr/share/doc/phpmyadmin/examples/config.sample.inc.php
+ * or
+ *   /usr/share/doc/phpmyadmin/examples/config.manyhosts.inc.php
+ *
+ * NOTE: do not add security sensitive data to this file (like passwords)
+ * unless you really know what you're doing. If you do, any user that can
+ * run PHP or CGI on your webserver will be able to read them. If you still
+ * want to do this, make sure to properly secure the access to this file
+ * (also on the filesystem level).
+ */
+
+
+if (!function_exists('check_file_access')) {
+    function check_file_access($path)
+    {
+        if (is_readable($path)) {
+            return true;
+        } else {
+            error_log(
+                'phpmyadmin: Failed to load ' . $path
+                . ' Check group www-data has read access and open_basedir restrictions.'
+            );
+            return false;
+        }
+    }
+}
+
+// Load secret generated on postinst
+if (check_file_access('/var/lib/phpmyadmin/blowfish_secret.inc.php')) {
+    require('/var/lib/phpmyadmin/blowfish_secret.inc.php');
+}
+
+// Load secret generated on postinst
+if (check_file_access('/var/lib/phpmyadmin/blowfish_secret.inc.php')) {
+    require('/var/lib/phpmyadmin/blowfish_secret.inc.php');
+}
+
+/**
+ * Server(s) configuration
+ */
+$i = 0;
+// The $cfg['Servers'] array starts with $cfg['Servers'][1].  Do not use $cfg['Servers'][0].
+// You can disable a server config entry by setting host to ''.
+$i++;
+
+/**
+ * Read configuration from dbconfig-common
+ * You can regenerate it using: dpkg-reconfigure -plow phpmyadmin
+ */
+
+if (check_file_access('/etc/phpmyadmin/config-db.php')) {
+    require('/etc/phpmyadmin/config-db.php');
+}
+
+/* Configure according to dbconfig-common if enabled */
+if (!empty($dbname)) {
+    /* Authentication type */
+    $cfg['Servers'][$i]['auth_type'] = 'cookie';
+    /* Server parameters */
+    if (empty($dbserver)) $dbserver = 'localhost';
+    $cfg['Servers'][$i]['host'] = $dbserver;
+
+    if (!empty($dbport) || $dbserver != 'localhost') {
+        $cfg['Servers'][$i]['connect_type'] = 'tcp';
+        $cfg['Servers'][$i]['port'] = $dbport;
+    }
+    //$cfg['Servers'][$i]['compress'] = false;
+    /* Select mysqli if your server has it */
+    $cfg['Servers'][$i]['extension'] = 'mysqli';
+    /* Optional: User for advanced features */
+    $cfg['Servers'][$i]['controluser'] = $dbuser;
+    $cfg['Servers'][$i]['controlpass'] = $dbpass;
+
+   /* Optional: Advanced phpMyAdmin features */
+    $cfg['Servers'][$i]['pmadb'] = $dbname;
+    $cfg['Servers'][$i]['bookmarktable'] = 'pma__bookmark';
+    $cfg['Servers'][$i]['relation'] = 'pma__relation';
+    $cfg['Servers'][$i]['table_info'] = 'pma__table_info';
+    $cfg['Servers'][$i]['table_coords'] = 'pma__table_coords';
+    $cfg['Servers'][$i]['pdf_pages'] = 'pma__pdf_pages';
+    $cfg['Servers'][$i]['column_info'] = 'pma__column_info';
+    $cfg['Servers'][$i]['history'] = 'pma__history';
+    $cfg['Servers'][$i]['table_uiprefs'] = 'pma__table_uiprefs';
+    $cfg['Servers'][$i]['tracking'] = 'pma__tracking';
+    $cfg['Servers'][$i]['userconfig'] = 'pma__userconfig';
+    $cfg['Servers'][$i]['recent'] = 'pma__recent';
+    $cfg['Servers'][$i]['favorite'] = 'pma__favorite';
+    $cfg['Servers'][$i]['users'] = 'pma__users';
+    $cfg['Servers'][$i]['usergroups'] = 'pma__usergroups';
+    $cfg['Servers'][$i]['navigationhiding'] = 'pma__navigationhiding';
+    $cfg['Servers'][$i]['savedsearches'] = 'pma__savedsearches';
+    $cfg['Servers'][$i]['central_columns'] = 'pma__central_columns';
+    $cfg['Servers'][$i]['designer_settings'] = 'pma__designer_settings';
+    $cfg['Servers'][$i]['export_templates'] = 'pma__export_templates';
+
+    /* Uncomment the following to enable logging in to passwordless accounts,
+     * after taking note of the associated security risks. */
+    // $cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
+
+    /* Advance to next server for rest of config */
+    $i++;
+}
+
+/* Authentication type */
+//$cfg['Servers'][$i]['auth_type'] = 'cookie';
+/* Server parameters */
+//$cfg['Servers'][$i]['host'] = 'localhost';
+//$cfg['Servers'][$i]['connect_type'] = 'tcp';
+//$cfg['Servers'][$i]['compress'] = false;
+/* Uncomment the following to enable logging in to passwordless accounts,
+ * after taking note of the associated security risks. */
+// $cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
+
+/**
+ * phpMyAdmin configuration storage settings.
+ */
+
+/* Storage database and tables */
+// $cfg['Servers'][$i]['pmadb'] = 'phpmyadmin';
+// $cfg['Servers'][$i]['bookmarktable'] = 'pma__bookmark';
+// $cfg['Servers'][$i]['relation'] = 'pma__relation';
+// $cfg['Servers'][$i]['table_info'] = 'pma__table_info';
+// $cfg['Servers'][$i]['table_coords'] = 'pma__table_coords';
+// $cfg['Servers'][$i]['pdf_pages'] = 'pma__pdf_pages';
+// $cfg['Servers'][$i]['column_info'] = 'pma__column_info';
+// $cfg['Servers'][$i]['history'] = 'pma__history';
+// $cfg['Servers'][$i]['table_uiprefs'] = 'pma__table_uiprefs';
+// $cfg['Servers'][$i]['tracking'] = 'pma__tracking';
+// $cfg['Servers'][$i]['userconfig'] = 'pma__userconfig';
+// $cfg['Servers'][$i]['recent'] = 'pma__recent';
+// $cfg['Servers'][$i]['favorite'] = 'pma__favorite';
+// $cfg['Servers'][$i]['users'] = 'pma__users';
+// $cfg['Servers'][$i]['usergroups'] = 'pma__usergroups';
+// $cfg['Servers'][$i]['navigationhiding'] = 'pma__navigationhiding';
+// $cfg['Servers'][$i]['savedsearches'] = 'pma__savedsearches';
+// $cfg['Servers'][$i]['central_columns'] = 'pma__central_columns';
+// $cfg['Servers'][$i]['designer_settings'] = 'pma__designer_settings';
+// $cfg['Servers'][$i]['export_templates'] = 'pma__export_templates';
+/* Contrib / Swekey authentication */
+// $cfg['Servers'][$i]['auth_swekey_config'] = '/etc/swekey-pma.conf';
+
+
+/*
+ * End of servers configuration
+ */
+
+/*
+ * Directories for saving/loading files from server
+ */
+$cfg['UploadDir'] = '';
+$cfg['SaveDir'] = '';
+
+/* Support additional configurations */
+foreach (glob('/etc/phpmyadmin/conf.d/*.php') as $filename)
+{
+    include($filename);
+}
+--------------------------------PHP MY SQL -------------------------------------------------------------
+
+No arquivo 
+W 🐼: nano /etc/phpmyadmin/config-db.php
+mudar
+$dbserver='localhost';
+para
+$dbserver='127.0.0.1';
+Reinicie o Apache2 ;-)
+
+========================
+Eu estava enfrentando o mesmo problema. Estou usando o Ubuntu 20.04 
+usando wsl. Criei o servidor lamp com php7.3. 
+Criado novo usuário com privilégios totais. Do root e de outro usuário, 
+obtendo o mesmo erro.
+
+Mas consegui a solução: agora primeiro precisamos instalar o Selinux . 
+Aqui estão os comandos:
+
+Passo 1 - Instale o Selinux:
+
+W 🐼: sudo apt install policycoreutils selinux-utils selinux-basics
+
+# Passo 2 - Ativar:
+W 🐭: sudo selinux-activate
+
+Etapa 3 - Ative httpd_can_network_connect_db 1:
+
+Por padrão, a política httpd_can_network_connect_db está desabilitada 
+(o que significa que seu servidor web não pode entrar em contato 
+com um banco de dados remoto).
+
+W 🐼: getsebool -a | grep httpd
+Se httpd_can_network_connect_db estiver desativado, 
+habilite-o por meio de:
+
+W 🐼: setsebool -P httpd_can_network_connect_db 1
+
+# Passo 4 - Talvez seja necessário alterar: 
+altere localhost para 127.0.0.1 em 
+W 🐼: nano /etc/phpmyadmin/config.inc.php
+localhost
+$cfg['Servers'][$i]['host'] = '127.0.0.1';
+Etapa 6 - Reinicie o mysql e o apache:
+
+sudo service mysql start
+sudi service apache2 start.
+---------------------------------------------------
+
+
+
 -------------------------------- -------------- end is over!!! , now a list of errors and information ------------------------------------------------------------------
 
 --------------------- 🐓🐓🐓 SYSTEMD 🐓🐓🐓 ---------------------
@@ -302,5 +1371,10 @@ smb://172.17.0.2/
 systemctl enable smb
 chkconfig smb on 
 
-
+---------------
+Web-Based File Managers:
+FileBrowser – Simple and lightweight web file manager
+Cloud Commander – Dual-panel web file manager
+Pydio Cells – Advanced file-sharing and management
+Nextcloud – Full cloud storage solution
 
