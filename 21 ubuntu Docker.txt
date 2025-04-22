@@ -19,11 +19,12 @@ https://github.com/Izeraa/PHP_Runner_Ubuntu
 --------------------- 🐼🐼🐼 🐭 🐼🐼🐼 ---------------------
 
 	SITE: 	● IP : LOOK IN PORTAINER CONTAINER IP - https://172.17.0.2/ - 
-	UBUNTU:	● USER : root	● PASSEWORD: 123  ● IP : LOOK IN PORTAINER 
-	MYSQL:	● USER : panda	● PASSEWORD: 123  ● IP : LOOK IN PHPMYADMIN OR UBUNTU
-	PHPMYADMIN: ● USER : phpmyadmin ● PASSEWORD: 123 ● IP : - http://localhost:8000 - http://172.17.0.2/phpmyadmin/ - http://172.17.0.3/phpmyadmin 
-	CLOUDER COMANDER: ● IP : http://localhost:8000/
-	🐓 SMB : ● IP : \\192.168.0.176/rede/ smb://192.168.0.176/rede/  https://172.17.0.2/ smb://172.17.0.2/
+	🐼 UBUNTU:	● USER : root	● PASSEWORD: 123  ● IP : LOOK IN PORTAINER 
+	🐼 MYSQL:	● USER : panda	● PASSEWORD: 123  ● IP : LOOK IN PHPMYADMIN OR UBUNTU
+	🐼 PHPMYADMIN: ● USER : phpmyadmin ● PASSEWORD: 123 ● IP : - http://localhost:8000 - http://172.17.0.2/phpmyadmin/ - http://172.17.0.3/phpmyadmin  http://localhost/phpmyadmin
+		phpmyadmin@localhost 	
+	🐼 CLOUDER COMANDER: ● IP : http://localhost:8000/
+	🐼 SMB : ● IP : [windows] \\192.168.0.176/rede/ [Linux] smb://192.168.0.176/rede/  https://172.17.0.2/ smb://172.17.0.2/
 
 
 --------------------- 🐼🐼🐼 🐭 🐼🐼🐼 ---------------------
@@ -143,6 +144,7 @@ Commands & logging
 
 --------------------- 🐼🐼🐼 APACHE  🐼🐼🐼 ---------------------
 W 🐼: sudo apt install lamp-server^
+W 🐼: sudo apt purge lamp-server^
 --------------------- 🐼🐼🐼 APACHE  🐼🐼🐼 ---------------------
 
             
@@ -183,7 +185,8 @@ WantedBy=multi-user.target
 
 --------------------- 🐼🐼🐼 PHP 🐼🐼🐼 ---------------------
             
-	W 🐼: apt install php libapache2-mod-php php-mysql	
+	W 🐼: sudo apt install php libapache2-mod-php php-mysql -y
+	W 👽: apt install php libapache2-mod-php php-mysql
 	W 👽: sudo systemctl enable php-fpm	
 	W 🐼: apt-get install php
 	W 🐼: sudo apt-get install php
@@ -193,6 +196,7 @@ WantedBy=multi-user.target
 --------------------------------------------------------------
 
 --------------------- 🐼🐼🐼 MYSQL 🐼🐼🐼 ---------------------
+
 
 W 🐼: apt-get install mysql-server -y
 W 👽: sudo apt-get install mysql-server -y
@@ -248,15 +252,55 @@ WantedBy=default.target
 	W 🐼:  service mysql restart 
 	W 🐼:  service mysql restart 
 	W 🐼:  mysql
-	W 🐼:  mysql -p -u root
-	W 🐼:  // PASSWORD =  123 ENTER    
+	W 🐼:  sudo mysql -p -u root                                    // PASSWORD =  123 ENTER
 	W 🐼:  CREATE USER 'panda'@'localhost' IDENTIFIED BY '123';
 	W 🐼:  GRANT ALL PRIVILEGES ON *.* TO 'panda'@'localhost';
 	W 🐼:  FLUSH PRIVILEGES;
 	W 🐼:  EXIT;
 	W 🐼:  sudo service mysql restart
+§ 1.0 – CREATE USER 'panda'@'localhost' IDENTIFIED WITH mysql_native_password BY '123';
+§ 1.0 – GRANT ALL PRIVILEGES ON *.* TO 'panda'@'localhost' WITH GRANT OPTION;
+§ 1.0 – FLUSH PRIVILEGES;
 
 --------------------------------------------------------------
+
+--------------------- 🐼🐼🐼 REMOVE MYSQL PART 3 🐼🐼🐼 ---------------------
+
+sudo systemctl stop mysql
+sudo apt-get remove --purge mysql-server mysql-client mysql-common -y
+sudo apt-get autoremove -y
+sudo apt-get autoclean
+sudo rm -rf /etc/mysql /var/lib/mysql
+sudo deluser mysql
+sudo delgroup mysql
+
+--------------------------------------------------------------
+
+--------------------- 🐼🐼🐼 MYSQL PART 2 🐼🐼🐼 ---------------------
+AAAA
+
+
+----------------------------------------------------
+
+--------------------- 🐼🐼🐼 HUMGRA 🐼🐼🐼 --------------------
+	W 🐼: apt-get update
+W 🐼: 🛠️ Opção 1: Dar permissão total ao seu usuário (recomendado para desenvolvimento)
+	sudo chown -R SEU_USUARIO:www-data /var/www
+	sudo chmod -R 775 /var/www
+	sudo chmod -R 777 /var/www
+W 🐼: 🛠️ Opção 2:
+sudo chown -R $(whoami):www-data /var/www
+sudo chmod -R 775 /var/www
+
+W 🐼: 🛠️ Opção 2: Adicionar seu usuário ao grupo www-data (pra trabalhar em conjunto com o Apache)
+sudo usermod -a -G www-data $(whoami)
+
+W 🐼: 🛠️ Opção 2:
+Depois disso, faça logout e login de novo (ou reinicie), e então:
+sudo chown -R www-data:www-data /var/www
+sudo chmod -R 775 /var/www
+
+-------------------------------------------------------------
 
 --------------------- 🐼🐼🐼 PHP MY ADMIN 🐼🐼🐼 ---------------------
 	W 🐼:  apt install phpmyadmin
